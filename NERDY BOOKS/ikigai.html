@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IKIGAI</title>
+  <link rel="icon" href="images/nerdylogo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&family=Roboto+Slab:wght@100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=REM:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&family=Roboto+Slab:wght@100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<style>       
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffbfb;
+      background-image: linear-gradient(315deg, #43302e 0%, #ad6f69 74%);
+      line-height: 1.6;
+      margin: 0;
+      padding-bottom: 10%;
+      overflow-x: hidden; 
+      color:#fffbfb;
+    }
+    header {
+      position: fixed;
+      width: 100%;
+      padding: px 0px; 
+      z-index: 1000;
+      background-color: rgb(237, 212, 212);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+    }
+    header h1 a {
+      color: #000;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+    header img {
+      height: 40px; 
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    nav {
+      background-color: rgb(223, 208, 208);
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    nav ul li {
+      margin: 0 15px;
+      background-color: transparent;
+    }
+    nav ul li a {
+      color: #000;
+      text-decoration: none;
+      font-size: 14px;
+      background-color: transparent;
+    }
+
+    img {
+      width: 100%; /* Resize the image to fill its container */
+      height: auto; /* Maintain aspect ratio */
+      max-width: 500px; /* Limit maximum width */
+      padding-left: 20px;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .ikigai {
+      float: left; /* Float the image container to the left */
+      width: 50%; /* Set the width of the image container */
+      padding-top: 50px;
+      padding-left: 100px;
+    }
+    .content {
+      width: 50%; /* Set the width of the text container */
+      padding-top: 50px; /* Add some padding to the text container */
+      box-sizing: border-box; /* Include padding in the width calculation */
+      Padding-right: 200px;
+    }
+    .content-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10px;
+   
+      Padding: 20px;
+    }
+    .teachers-custom {
+     font-family: "Teachers", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400; /* Replace <weight> with the desired font weight */
+      font-style: normal;
+    }
+    .roboto-slab {
+     font-family: "Roboto Slab", serif;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+    }
+    .reddit-mono {
+   font-family: "Reddit Mono", monospace;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+}
+.rem-navbar {
+      font-family: "REM", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400; /* Replace <weight> with the desired font weight */
+      font-style: normal;
+    }
+  </style>
+</head>
+<body> 
+  <header>
+    <h1><a href="book.html"><img src="images/nerdylogo.png" alt="Nerdy Book Logo"></a></h1>
+    <nav class="rem-navbar">
+      <ul>
+        <li><a href="book.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="ikigai">
+      <a href="pdf-epub/ikigai.pdf" download>
+        <img src="images/ikigai.jpg" class="book-cover" alt=" Maybe You Should Talk to Someone Cover">
+      </a>
+    </div>
+    <div class="content">
+      <div class="content-inner">
+        <h2 class="roboto-slab">Ikigai</h2>
+        <p class="reddit-mono"><b>Author:</b> Héctor García & Francesc Miralles</p>
+        <p class="teachers-custom">Ikigai by Héctor García & Francesc Miralles is book which talks about finding your purpose and then following it with all heart to live a happy and satisfying life. The authors take us in this search along with them and make us understand how people of Japan have been living a long and a happy life.</p>
+ </div>
+    </div>
+  </div>
+</body>
+</html>
